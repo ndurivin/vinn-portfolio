@@ -27,8 +27,8 @@ const About = () => {
             }
           </div>
           <p>
-            Working on projects that my clients love and building them to
-            completion is always my passion. Being in the IT industry for 3+
+            Working on projects and building them to completion in states 
+            that my clients love is always my passion. Being in the IT industry for 3+
             years and serving numerous happy clients to satisfaction, I'm always
             motivated to do more and better!
           </p>
@@ -41,7 +41,7 @@ const About = () => {
             project and let's get started in building the next great solutions.
             I also ensure that your IT systems and applications are optimaly operational
             and up to date with latest trends.
-          </p><br/>
+          </p>
           <a href="" download className="btn primary"> Download <HiDownload /></a>
         </div>
       </div>
