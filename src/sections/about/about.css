@@ -6,9 +6,13 @@
 
 .about__portrait {
     height: fit-content;
-    max-height: 40rem;
+    max-height: 45rem;
     border: 1rem solid var(--color-white);
     transition: var(--transition);
+}
+
+.about__portrait img {
+    height: 40rem;
 }
 
 .about__portrait:hover {
@@ -75,8 +79,8 @@
 /* MEDIA QUERRIES SECTION  */
 /* (phones) */
 @media screen and (max-width: 600px) {
-    .about__card {
-        grid-template-columns: 1 1fr;
+    .about__cards {
+        grid-template-columns: 1fr 1fr;
         gap: 1rem;
     }
 
