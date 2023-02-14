@@ -1,8 +1,8 @@
-import "./about.css";
 import { HiDownload } from 'react-icons/hi';
 import Card from '../../components/Card';
 import data from './about.js';
 import headerpic from '../../assets/headerpic.jpg';
+import "./about.css";import "./about.css";
 
 const About = () => {
   return (
