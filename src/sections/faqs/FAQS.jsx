@@ -1,8 +1,13 @@
+import { AiOutlinePlus, AiOutlineMinus } from 'react-icons/ai';
 import './faqs.css';
 
 const FAQS = () => {
   return (
-    <section id="faqs"><h2>FAQS</h2></section>
+    <section id="faqs">
+      <div className="container faq__container">
+        
+      </div>
+    </section>
   )
 }
 
