@@ -22,7 +22,7 @@ const data = [
 
   {
     id: 4,
-    question: "How much do you charge for an average website?",
+    question: "How much do you charge for a website/ Web App?",
     answer:
       "This also depends on the type and complexity of project. But my prices are fair and affordable so you have no reasons to worry.",
   },
