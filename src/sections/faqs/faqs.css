@@ -1,1 +1,38 @@
 
+.faq__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem 4rem;
+    align-items: center;
+    
+}
+
+.card.faq {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.5rem;
+    background: var(--color-light);
+}
+
+.card.faq:hover {
+    background: var(--color-white);
+}
+
+
+/* MEDIA QUERY (tablet)  */
+
+@media screen and (max-width: 1024px) {
+    .faq__container {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+}
+
+/* MEDIA QUERY (phones)  */
+
+@media screen and (max-width: 600px) {
+    .faq__container {
+        grid-template-columns: 1fr;
+        gap: 1.2rem;
+    }
+}
